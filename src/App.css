@@ -1,0 +1,56 @@
+
+.App {
+  text-align: center;
+}
+
+html {
+  /* background: skyblue; */
+  background: skyblue;
+
+}
+
+#Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.Intro {
+  font-family: RugratS;
+  display: grid;
+}
+
+#intro-div {
+  margin-bottom: 1px;
+}
+
+h1 {
+  font-size: 200px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color:slateblue;
+  -webkit-text-stroke: 0.5px darkblue;
+}
+
+h2 {
+  font-size: 50px;
+  margin-block-start: 0em;
+}
+
+#button-div {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 10px;
+}
+
+.Button {
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+  background: darkblue;
+  color: yellow;
+}
