@@ -1,0 +1,30 @@
+.Header {
+    text-align: center;
+    background: #fff;
+    color: #777777;
+    padding-bottom: 10px;
+  }
+  
+  #HeaderLogo {
+    display: block;
+    width: 8%;
+  }
+
+  #links {
+  margin-block-start: -2em;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .nav-links {
+    font-family: RugratS;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    color: #777;
+    font-size: 200%;
+  }

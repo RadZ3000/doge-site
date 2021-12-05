@@ -8,16 +8,11 @@ html {
   background: skyblue;
 
 }
-
-#Logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-
+/* 
 .Intro {
   font-family: RugratS;
+  background: url(https://images6.fanpop.com/image/photos/42900000/Tommy-rugrats-42941702-1920-1080.png);
+
   display: grid;
 }
 
@@ -34,8 +29,11 @@ h1 {
 }
 
 h2 {
+  font-family: RugratS;
   font-size: 50px;
   margin-block-start: 0em;
+  color: black;
+
 }
 
 #button-div {
@@ -44,7 +42,7 @@ h2 {
   padding: 10px;
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
 .Button {
@@ -54,3 +52,4 @@ h2 {
   background: darkblue;
   color: yellow;
 }
+ */

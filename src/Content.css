@@ -1,0 +1,86 @@
+.Intro {
+  font-family: RugratS;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(https://images6.fanpop.com/image/photos/42900000/Tommy-rugrats-42941702-1920-1080.png);
+}
+
+#intro-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 280px;
+  margin-block-start: -0.05em;
+  margin-block-end: 0em;
+  color:slateblue;
+  -webkit-text-stroke: 0.2px rgb(77, 64, 165);
+  /* opacity: 0.5; */
+}
+
+#ContentLogo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-start: -10em;
+
+  /* width: 50% */
+}
+
+h2 {
+  font-family: RugratS;
+  font-size: 60px;
+  margin-block-start: -0.5em;
+  color: yellow;
+  -webkit-text-stroke: 0.1px slateblue;
+}
+
+#button-div {
+  margin-left: 64px;
+  margin-right: 32px;
+  align-items: center;
+  margin-block-start: -2em;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 20px;
+}
+
+.Button {
+  font-family: RugratS;
+  font-size: 20px;
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+  background: darkblue;
+  color: yellow;
+}
+
+#button-1 {
+  background: darkblue;
+  color: yellow;
+}
+
+#button-2 {
+  background: slateblue;
+  color: yellow;
+}
+
+#button-3 {
+  background: skyblue;
+  color: darkblue;
+}
+
+#credits {
+  margin-block-start: -0.5em;
+  padding-bottom: 0.1px;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: RugratS;
+  font-size: 60px;
+  /* margin-block-start: -0.5em; */
+  color: yellow;
+  -webkit-text-stroke: 0.1px slateblue;
+}
