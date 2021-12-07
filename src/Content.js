@@ -2,7 +2,7 @@ import "./Content.css";
 import IntroLogo from './IntroLogo.png'
 import FeaturesLogo from './FeaturesLogo.png'
 import featuresConst from './content_file/features.js';
-import tokenomicsConst from './content_file/tokenomics.js';
+// import tokenomicsConst from './content_file/tokenomics.js';
 import roadmapConst from './content_file/roadmap.js';
 import tokenInfoConst from './content_file/tokenInfo.js';
 
@@ -39,17 +39,19 @@ function Content() {
         <p>{featuresConst}</p>
       </div>
 
-      <div className="Tokenomics">
+      <div id="Tokenomics">
         <h2 id='tokenomics'>TOKENOMICS</h2>
-        <p>{tokenomicsConst}</p>
+        {/* <p>{tokenomicsConst}</p> */}
+        <h3>10% Buy Tax</h3>
+        <div id="redis">2%</div>
       </div>
 
-      <div className="Roadmap">
+      <div id="Roadmap">
         <h2 id='roadmap'>ROADMAP</h2>
         <p>{roadmapConst}</p>
       </div>
 
-      <div className="Info">
+      <div id="Info">
         <h2 id="token-info">TOKEN INFO</h2>
         <p>{tokenInfoConst}</p>
       </div>
