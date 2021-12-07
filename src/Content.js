@@ -43,7 +43,16 @@ function Content() {
         <h2 id='tokenomics'>TOKENOMICS</h2>
         {/* <p>{tokenomicsConst}</p> */}
         <h3>10% Buy Tax</h3>
-        <div id="redis">2%</div>
+        <p className="BarP">2% Redistribution</p>
+        <div id="redis" className="bar">2%</div>
+        <p className="BarP">8% Dev + Marketing</p>
+        <div id="redis" className="bar">8%</div>
+        <p></p>
+        <h3>12% Sell Tax</h3>
+        <p className="BarP">2% Redistribution</p>
+        <div id="redis" className="bar">2%</div>
+        <p className="BarP">10% Dev + Marketing</p>
+        <div id="redis" className="bar">10%</div>
       </div>
 
       <div id="Roadmap">

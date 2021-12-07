@@ -88,12 +88,12 @@ h2 {
 }
 
 #Features {
-  margin-top: 100px;
+  margin-top: 200px;
   display: grid;
-  grid-template-rows: 25% 75%;
+  grid-template-rows: 25% 50%;
   grid-template-columns: 50% 50%;
   column-gap: 50px;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 #Features div:nth-child(1) {
@@ -117,6 +117,7 @@ h2 {
   grid-column-start: 2;
   grid-column-end: 2;
   text-align: left;
+  padding-right: 100px;
   white-space: pre-line;
 }
 
@@ -124,30 +125,24 @@ h2 {
   width: 600px;
 }
 
-/* #Content div:nth-child(1) {
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start: 2;
-  grid-column-end: 2;
+#Tokenomics {
+  margin-top: -50px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
 }
 
-#Content div:nth-child(2) {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 1;
+.bar {
+  background: rgb(10, 140, 192);
+  width: 500px;
+  border-radius: 15px;
+  color: white;
 }
 
-#Content div:nth-child(3) {
-  grid-row-start: 3;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 2;
+.BarP {
+  text-align: left;
 }
 
-#Content div:nth-child(4) {
-  grid-row-start: 4;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 1;
-} */
+#Roadmap {
+  margin-top: 200px;
+}
