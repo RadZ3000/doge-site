@@ -81,6 +81,14 @@ h2 {
   background: rgb(10, 140, 192);
 }
 
-.Features {
-  padding-top: 80px;
+.fa fa-telegram {
+  color: red;
+}
+
+#Content {
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 100px;
 }
