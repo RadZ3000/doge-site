@@ -1,5 +1,6 @@
 import "./Content.css";
-import ContentLogo from './ContentLogo.png'
+import IntroLogo from './IntroLogo.png'
+import FeaturesLogo from './FeaturesLogo.png'
 import featuresConst from './content_file/features.js';
 import tokenomicsConst from './content_file/tokenomics.js';
 import roadmapConst from './content_file/roadmap.js';
@@ -19,39 +20,38 @@ function Content() {
         <div id="token-motto">
           <p>{tokenMotto}</p>
         </div>
-        <div id="content-logo">
-          <img id="ContentLogo" src={ContentLogo} alt="ContentLogo" />
+        <div id="intro-logo">
+          <img id="IntroLogo" src={IntroLogo} alt="IntroLogo" />
         </div>
       </div>
 
       <div id="button-div">
         <button className="Button" id="button-1">BUY $DOGE</button>
-        <button className="Button" id="button-2" ><i class="fa fa-telegram"></i>OUR TELEGRAM</button>
+        <button className="Button" id="button-2" ><i class="fa fa-telegram" id="telegram"></i>OUR TELEGRAM</button>
         <button className="Button" id="button-3">OUR TWITTER</button>
       </div>
 
-      <div id="Content">
-
-        <div className="Features">
-          <h2>PROJECT FEATURES</h2>
-          <p>{featuresConst}</p>
+      <div id="Features">
+        <div id="features-logo">
+          <img id="FeaturesLogo" src={FeaturesLogo} alt="FeaturesLogo" />
         </div>
+        <h2>PROJECT FEATURES</h2>
+        <p>{featuresConst}</p>
+      </div>
 
-        <div className="Tokenomics">
-          <h2 id='tokenomics'>TOKENOMICS</h2>
-          <p>{tokenomicsConst}</p>
-        </div>
+      <div className="Tokenomics">
+        <h2 id='tokenomics'>TOKENOMICS</h2>
+        <p>{tokenomicsConst}</p>
+      </div>
 
-        <div className="Roadmap">
-          <h2 id='roadmap'>ROADMAP</h2>
-          <p>{roadmapConst}</p>
-        </div>
+      <div className="Roadmap">
+        <h2 id='roadmap'>ROADMAP</h2>
+        <p>{roadmapConst}</p>
+      </div>
 
-        <div className="Info">
-          <h2 id="token-info">TOKEN INFO</h2>
-          <p>{tokenInfoConst}</p>
-        </div>
-
+      <div className="Info">
+        <h2 id="token-info">TOKEN INFO</h2>
+        <p>{tokenInfoConst}</p>
       </div>
 
     </div>
