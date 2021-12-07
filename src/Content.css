@@ -1,45 +1,66 @@
 .Intro {
-  font-family: RugratS;
   margin-left: auto;
   margin-right: auto;
-  background: url(https://images6.fanpop.com/image/photos/42900000/Tommy-rugrats-42941702-1920-1080.png);
+  padding-top: 100px;
+  background-image: linear-gradient(black 0%, skyblue 100%);
+  color: white;
+  display: grid;
+  grid-template-rows: 40% 60%;
+  grid-template-columns: 10% 40% 40%;
 }
 
-#intro-div {
-  margin-left: auto;
-  margin-right: auto;
+#home div:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#home div:nth-child(2) {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#home div:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#token-name {
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: left;
+}
+
+#token-motto {
+  text-align: left;
 }
 
 h1 {
-  font-size: 280px;
-  margin-block-start: -0.05em;
+  font-size: 70px;
+  margin-block-start: 0em;
   margin-block-end: 0em;
-  color:slateblue;
-  -webkit-text-stroke: 0.2px rgb(77, 64, 165);
-  /* opacity: 0.5; */
+  color:white
 }
 
 #ContentLogo {
-  margin-left: auto;
-  margin-right: auto;
-  margin-block-start: -10em;
-
-  /* width: 50% */
+  margin-top: -35px;
+  width: 400px;
 }
 
 h2 {
-  font-family: RugratS;
-  font-size: 60px;
-  margin-block-start: -0.5em;
-  color: yellow;
-  -webkit-text-stroke: 0.1px slateblue;
+  font-size: 40px;
+  color: white;
 }
 
 #button-div {
   margin-left: 64px;
   margin-right: 32px;
   align-items: center;
-  margin-block-start: -2em;
   padding: 10px;
   display: grid;
   grid-template-columns: 32% 32% 32%;
@@ -47,40 +68,26 @@ h2 {
 }
 
 .Button {
-  font-family: RugratS;
   font-size: 20px;
   border-radius: 15px;
   height: 50px;
   width: 200px;
-  background: darkblue;
-  color: yellow;
 }
 
 #button-1 {
   background: darkblue;
-  color: yellow;
 }
 
 #button-2 {
   background: slateblue;
-  color: yellow;
 }
 
 #button-3 {
   background: skyblue;
-  color: darkblue;
 }
 
 #credits {
   margin-block-start: -0.5em;
   padding-bottom: 0.1px;
   font-size: 20px;
-}
-
-h3 {
-  font-family: RugratS;
-  font-size: 60px;
-  /* margin-block-start: -0.5em; */
-  color: yellow;
-  -webkit-text-stroke: 0.1px slateblue;
 }

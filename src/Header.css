@@ -1,17 +1,29 @@
 .Header {
+    display: grid;
     text-align: center;
-    background: #fff;
-    color: #777777;
+    background: black;
     padding-bottom: 10px;
+  }
+
+  #Header img:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  #Header div:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
   }
   
   #HeaderLogo {
+    margin-top: auto;
+    margin-bottom: auto;
     display: block;
-    width: 8%;
-  }
-
-  #links {
-  margin-block-start: -2em;
+    width: 15%;
   }
 
   .links {
@@ -22,9 +34,8 @@
   }
 
   .nav-links {
-    font-family: RugratS;
+    font-size: 20px;
     text-align: center;
     margin: 0px auto 0px auto;
-    color: #777;
-    font-size: 200%;
+    color: white;
   }

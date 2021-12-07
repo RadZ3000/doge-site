@@ -6,29 +6,32 @@ import roadmapConst from './content_file/roadmap.js';
 import tokenInfoConst from './content_file/tokenInfo.js';
 
 function Content() {
-  const tokenName = "Rugrats Inu";
-  const tokenMotto = "Crypto's No Fun Without The Rugrats!";
+  const tokenName = "DOGE";
+  const tokenMotto = "DOGE holders are not only rewarded through static rewards, but also through true automatic burns every trade from within the liquidity pool.";
 
   return (
     <div className="App">
 
       <div className="Intro" id='home'>
-        <div id="intro-div">
+        <div id="token-name">
           <h1>{tokenName}</h1>
+        </div>
+        <div id="token-motto">
+          <p>{tokenMotto}</p>
+        </div>
+        <div id="content-logo">
           <img id="ContentLogo" src={ContentLogo} alt="ContentLogo" />
-          <h2>{tokenMotto}</h2>
         </div>
+      </div>
 
-        <div id="button-div">
-          <button className="Button" id="button-1">BUY $RUG</button>
-          <button className="Button" id="button-2">OUR TELEGRAM</button>
-          <button className="Button" id="button-3">OUR TWITTER</button>
-        </div>
+      <div id="button-div">
+        <button className="Button" id="button-1">BUY $RUG</button>
+        <button className="Button" id="button-2">OUR TELEGRAM</button>
+        <button className="Button" id="button-3">OUR TWITTER</button>
+      </div>
 
-        <div id="credits">
-          <h4>Powered by Binance SmartChain</h4>
-        </div>
-
+      <div id="credits">
+        <h4>Powered by Binance SmartChain</h4>
       </div>
 
       <div className="Features">

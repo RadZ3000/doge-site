@@ -4,7 +4,7 @@ import HeaderLogo from './HeaderLogo.png';
 function Header() {
 
     return (
-        <div className="Header">
+        <div className="Header" id="Header">
 
             <img id='HeaderLogo' src={ HeaderLogo } alt="HeaderLogo" />
             <div id="links" className="links">
