@@ -25,29 +25,28 @@ function Content() {
       </div>
 
       <div id="button-div">
-        <button className="Button" id="button-1">BUY $RUG</button>
-        <button className="Button" id="button-2">OUR TELEGRAM</button>
+        <button className="Button" id="button-1">BUY $DOGE</button>
+        <button className="Button" id="button-2" ><i class="fa fa-telegram"></i>OUR TELEGRAM</button>
         <button className="Button" id="button-3">OUR TWITTER</button>
       </div>
 
-      <div id="credits">
-        <h4>Powered by Binance SmartChain</h4>
+      <div className="Features">
+        <h2>Project Features</h2>
+        <p>{featuresConst}</p>
       </div>
 
-      <div className="Features">
-        <h3>Project Features</h3>
-        <p>{featuresConst}</p>
-        <h3 id='tokenomics'>Tokenomics</h3>
+      <div className="Tokenomics">
+        <h2 id='tokenomics'>Tokenomics</h2>
         <p>{tokenomicsConst}</p>
       </div>
 
       <div className="Roadmap">
-        <h3 id='roadmap'>Roadmap</h3>
+        <h2 id='roadmap'>Roadmap</h2>
         <p>{roadmapConst}</p>
       </div>
 
       <div className="Info">
-        <h3 id="token-info">Token Info</h3>
+        <h2 id="token-info">Token Info</h2>
         <p>{tokenInfoConst}</p>
       </div>
 

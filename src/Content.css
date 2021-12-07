@@ -1,3 +1,7 @@
+html {
+  color: white;
+}
+
 .Intro {
   margin-left: auto;
   margin-right: auto;
@@ -58,36 +62,23 @@ h2 {
 }
 
 #button-div {
-  margin-left: 64px;
-  margin-right: 32px;
   align-items: center;
   padding: 10px;
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  column-gap: 20px;
 }
 
 .Button {
-  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 15px;
   border-radius: 15px;
   height: 50px;
   width: 200px;
+  background: rgb(10, 140, 192);
 }
 
-#button-1 {
-  background: darkblue;
-}
-
-#button-2 {
-  background: slateblue;
-}
-
-#button-3 {
-  background: skyblue;
-}
-
-#credits {
-  margin-block-start: -0.5em;
-  padding-bottom: 0.1px;
-  font-size: 20px;
+.Features {
+  padding-top: 80px;
 }
