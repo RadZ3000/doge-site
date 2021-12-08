@@ -1,6 +1,10 @@
 import "./Content.css";
 import IntroLogo from './IntroLogo.png'
 import FeaturesLogo from './FeaturesLogo.png'
+import FairLaunchLogo from './FairLaunchLogo.png'
+import LiquidityLockedLogo from './LiquidityLockedLogo.png'
+import AntiSniperLogo from './AntiSniperLogo.png'
+import AntiWhaleLogo from './AntiWhaleLogo.png'
 import featuresConst from './content_file/features.js';
 // import tokenomicsConst from './content_file/tokenomics.js';
 // import roadmapConst from './content_file/roadmap.js';
@@ -13,7 +17,7 @@ function Content() {
   return (
     <div className="App">
 
-      <div className="Intro" id='home'>
+      <div className="Intro" id='Home'>
         <div id="token-name">
           <h1>{tokenName}</h1>
         </div>
@@ -99,18 +103,22 @@ function Content() {
         {/* <p>{tokenInfoConst}</p> */}
         
         <div className="info-div" id="info-one">
+          <img src={FairLaunchLogo} alt="FairLaunchLogo" id="FairLaunchLogo" />
           <h3>Fair Launch</h3>
           <p>No Presales, No Preferential tokens.</p>
         </div>
         <div className="info-div" id="info-two">
+          <img src={LiquidityLockedLogo} alt="LiquidityLockedLogo" id="LiquidityLockedLogo" />
           <h3>Liquidity Locked</h3>
           <p>LP Tokens locked on dxSale (1 month)</p>
         </div>
         <div className="info-div" id="info-three">
+          <img src={AntiSniperLogo} alt="AntiSniperLogo" id="AntiSniperLogo" />
           <h3>Anti-Sniper Bot</h3>
           <p>Sniper bots get REKT and cannot dump</p>
         </div>
         <div className="info-div" id="info-four">
+          <img src={AntiWhaleLogo} alt="AntiWhaleLogo" id="AntiWhaleLogo" />
           <h3>Anti-Whale Protocol</h3>
           <p>Max transaction, max wallet limit set</p>
         </div>

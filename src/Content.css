@@ -203,6 +203,27 @@ h2 {
 }
 
 .info-div {
+  margin-top: 50px;
+  margin-left: 6px;
   background: rgb(3, 46, 63);
-  color: rgb(16, 165, 224);
+  /* color: rgb(16, 165, 224); */
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+#FairLaunchLogo {
+  width: 200px;
+}
+
+#LiquidityLockedLogo {
+  width: 140px;
+}
+
+#AntiSniperLogo {
+  width: 190px;
+}
+
+#AntiWhaleLogo {
+  width: 190px;
 }
