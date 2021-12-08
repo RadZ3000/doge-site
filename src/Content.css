@@ -15,21 +15,21 @@ html {
   grid-template-columns: 10% 40% 40%;
 }
 
-#home div:nth-child(1) {
+#Home div:nth-child(1) {
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 2;
   grid-column-end: 2;
 }
 
-#home div:nth-child(2) {
+#Home div:nth-child(2) {
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 2;
 }
 
-#home div:nth-child(3) {
+#Home div:nth-child(3) {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 3;
