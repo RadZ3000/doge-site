@@ -11,7 +11,7 @@ import featuresConst from './content_file/features.js';
 // import tokenInfoConst from './content_file/tokenInfo.js';
 
 function Content() {
-  const tokenName = "DOGE";
+  const tokenName = "DOGE.";
   const tokenMotto = "DOGE holders are not only rewarded through static rewards, but also through true automatic burns every trade from within the liquidity pool.";
 
   return (
