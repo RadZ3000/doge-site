@@ -143,6 +143,22 @@ h2 {
   text-align: left;
 }
 
+#redisA {
+  background: linear-gradient(to right, white 0%, white 2%, rgb(10, 140, 192) 2%, rgb(10, 140, 192) 100%);
+}
+
+#devMarketA {
+  background: linear-gradient(to right, white 0%, white 8%, rgb(10, 140, 192) 8%, rgb(10, 140, 192) 100%);
+}
+
+#redisB {
+  background: linear-gradient(to right, white 0%, white 2%, rgb(10, 140, 192) 2%, rgb(10, 140, 192) 100%);
+}
+
+#devMarketB {
+  background: linear-gradient(to right, white 0%, white 10%, rgb(10, 140, 192) 10%, rgb(10, 140, 192) 100%);
+}
+
 #Roadmap {
   margin-top: 200px;
 }
