@@ -176,10 +176,33 @@ h2 {
   grid-column-end: 4;
 }
 
+.roadmap-h3 {
+  padding-left: 22px;
+  text-decoration: underline;
+}
+
 .roadmap-div {
   text-align: left;
 }
 
 #Info {
   margin-top: 200px;
+  margin-bottom: 200px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+#Info h2:nth-child(1){
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.info-div {
+  background: rgb(3, 46, 63);
+  color: rgb(16, 165, 224);
 }

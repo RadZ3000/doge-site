@@ -4,7 +4,7 @@ import FeaturesLogo from './FeaturesLogo.png'
 import featuresConst from './content_file/features.js';
 // import tokenomicsConst from './content_file/tokenomics.js';
 // import roadmapConst from './content_file/roadmap.js';
-import tokenInfoConst from './content_file/tokenInfo.js';
+// import tokenInfoConst from './content_file/tokenInfo.js';
 
 function Content() {
   const tokenName = "DOGE";
@@ -60,7 +60,7 @@ function Content() {
         {/* <p>{roadmapConst}</p> */}
 
         <div id="phase-one" className="roadmap-div">
-          <h3>Phase 1 (Q4 2021)</h3>
+          <h3 className="roadmap-h3">Phase 1 (Q4 2021)</h3>
           <ul className="roadmap-list">
             <li>Website Reveal.</li>
             <li>Fair Launch.</li>
@@ -71,7 +71,7 @@ function Content() {
         </div>
 
         <div id="phase-two" className="roadmap-div">
-          <h3>Phase 2 (Q1 2022)</h3>
+          <h3 className="roadmap-h3">Phase 2 (Q1 2022)</h3>
           <ul className="roadmap-list">
             <li>CG Listing.</li>
             <li>Marketing Mania.</li>
@@ -82,7 +82,7 @@ function Content() {
         </div>
 
         <div id="phase-three" className="roadmap-div">
-          <h3>Phase 3 (Q2 2022)</h3>
+          <h3 className="roadmap-h3">Phase 3 (Q2 2022)</h3>
           <ul className="roadmap-list">
             <li>CMC Listing.</li>
             <li>Major Influence Brand Boost.</li>
@@ -95,8 +95,25 @@ function Content() {
       </div>
 
       <div id="Info">
-        <h2 id="token-info">TOKEN INFO</h2>
-        <p>{tokenInfoConst}</p>
+        <h2 id="info-h2">TOKEN INFO</h2>
+        {/* <p>{tokenInfoConst}</p> */}
+        
+        <div className="info-div" id="info-one">
+          <h3>Fair Launch</h3>
+          <p>No Presales, No Preferential tokens.</p>
+        </div>
+        <div className="info-div" id="info-two">
+          <h3>Liquidity Locked</h3>
+          <p>LP Tokens locked on dxSale (1 month)</p>
+        </div>
+        <div className="info-div" id="info-three">
+          <h3>Anti-Sniper Bot</h3>
+          <p>Sniper bots get REKT and cannot dump</p>
+        </div>
+        <div className="info-div" id="info-four">
+          <h3>Anti-Whale Protocol</h3>
+          <p>Max transaction, max wallet limit set</p>
+        </div>
       </div>
 
     </div>
