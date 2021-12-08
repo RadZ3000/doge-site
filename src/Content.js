@@ -3,7 +3,7 @@ import IntroLogo from './IntroLogo.png'
 import FeaturesLogo from './FeaturesLogo.png'
 import featuresConst from './content_file/features.js';
 // import tokenomicsConst from './content_file/tokenomics.js';
-import roadmapConst from './content_file/roadmap.js';
+// import roadmapConst from './content_file/roadmap.js';
 import tokenInfoConst from './content_file/tokenInfo.js';
 
 function Content() {
@@ -44,20 +44,54 @@ function Content() {
         {/* <p>{tokenomicsConst}</p> */}
         <h3>10% Buy Tax</h3>
         <p className="BarP">2% Redistribution</p>
-        <div id="redisA" className="bar">2%</div>
+        <div id="redis-buy" className="bar">2%</div>
         <p className="BarP">8% Dev + Marketing</p>
-        <div id="devMarketA" className="bar">8%</div>
+        <div id="devmarket-buy" className="bar">8%</div>
         <p></p>
         <h3>12% Sell Tax</h3>
         <p className="BarP">2% Redistribution</p>
-        <div id="redisB" className="bar">2%</div>
+        <div id="redis-sell" className="bar">2%</div>
         <p className="BarP">10% Dev + Marketing</p>
-        <div id="devMarketB" className="bar">10%</div>
+        <div id="devmarket-sell" className="bar">10%</div>
       </div>
 
       <div id="Roadmap">
         <h2 id='roadmap'>ROADMAP</h2>
-        <p>{roadmapConst}</p>
+        {/* <p>{roadmapConst}</p> */}
+
+        <div id="phase-one" className="roadmap-div">
+          <h3>Phase 1 (Q4 2021)</h3>
+          <ul className="roadmap-list">
+            <li>Website Reveal.</li>
+            <li>Fair Launch.</li>
+            <li>DEX Listing.</li>
+            <li>$100K Market Cap.</li>
+            <li>100+ Community Members.</li>
+          </ul>
+        </div>
+
+        <div id="phase-two" className="roadmap-div">
+          <h3>Phase 2 (Q1 2022)</h3>
+          <ul className="roadmap-list">
+            <li>CG Listing.</li>
+            <li>Marketing Mania.</li>
+            <li>$500K Market Cap.</li>
+            <li>Meme + Artwork Competition.</li>
+            <li>500+ Community Members.</li>
+          </ul>
+        </div>
+
+        <div id="phase-three" className="roadmap-div">
+          <h3>Phase 3 (Q2 2022)</h3>
+          <ul className="roadmap-list">
+            <li>CMC Listing.</li>
+            <li>Major Influence Brand Boost.</li>
+            <li>$1M+ Market Cap.</li>
+            <li>1K+ Community Members.</li>
+            <li>dApp Rollout (DEX, Launchpad, WDOGE Faucet).</li>
+          </ul>
+        </div>
+
       </div>
 
       <div id="Info">

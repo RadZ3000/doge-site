@@ -143,22 +143,43 @@ h2 {
   text-align: left;
 }
 
-#redisA {
+#redis-buy {
   background: linear-gradient(to right, white 0%, white 2%, rgb(10, 140, 192) 2%, rgb(10, 140, 192) 100%);
 }
 
-#devMarketA {
+#devmarket-buy {
   background: linear-gradient(to right, white 0%, white 8%, rgb(10, 140, 192) 8%, rgb(10, 140, 192) 100%);
 }
 
-#redisB {
+#redis-sell {
   background: linear-gradient(to right, white 0%, white 2%, rgb(10, 140, 192) 2%, rgb(10, 140, 192) 100%);
 }
 
-#devMarketB {
+#devmarket-sell {
   background: linear-gradient(to right, white 0%, white 10%, rgb(10, 140, 192) 10%, rgb(10, 140, 192) 100%);
 }
 
 #Roadmap {
+  margin-top: 200px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
+  padding: 50px;
+}
+
+#Roadmap h2:nth-child(1){
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.roadmap-div {
+  text-align: left;
+}
+
+#Info {
   margin-top: 200px;
 }
