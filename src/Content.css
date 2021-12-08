@@ -79,13 +79,14 @@ h2 {
   height: 50px;
   width: 200px;
   background: rgb(10, 140, 192);
+  /* background: white; */
   font-style: bold;
   border-style: none;
 }
 
 #telegram {
-  color: white;
-  width: 50px;
+  /* color: white; */
+  width: 5px;
 }
 
 #Features {
@@ -188,7 +189,7 @@ h2 {
 
 #Info {
   margin-top: 125px;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
   display: grid;
   justify-content: center;
   align-items: center;
