@@ -75,3 +75,16 @@
       width: 80%;
     }
   }
+
+  .nav-links:hover {
+    background: white;
+    color: black;
+    border-radius: 25px;
+    width: 30%;
+  }
+
+  .Button:hover {
+    background: orange;
+    color: rgb(3, 46, 63);
+    /* text-decoration: underline; */
+  }

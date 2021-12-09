@@ -11,7 +11,7 @@ function Header() {
                 <a class="nav-links" href="#Home">Home</a>
                 <a class="nav-links" href="#Tokenomics">Tokenomics</a>
                 <a class="nav-links" href="#Roadmap">Roadmap</a>
-                <a class="nav-links" href="#Info">Token Info</a>
+                <a class="nav-links" href="#Info">Info</a>
             </div>
 
         </div>
