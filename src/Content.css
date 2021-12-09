@@ -168,7 +168,7 @@ h2 {
   justify-content: center;
   grid-template-rows: 50% 50%;
   grid-template-columns: 33% 33% 33%;
-  padding: 50px;
+  padding-top: 50px;
 }
 
 #Roadmap h2:nth-child(1){

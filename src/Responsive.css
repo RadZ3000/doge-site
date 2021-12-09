@@ -54,11 +54,16 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding-top: 5%;
     }
 
-    #phase-three {
-      margin-left: 16%;
+    .roadmap-div {
+      width: 33%;
     }
+
+    /* #phase-three {
+      margin-left: 16%;
+    } */
 
     #Info {
       margin-top: 1%;
