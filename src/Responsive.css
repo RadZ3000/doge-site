@@ -21,6 +21,7 @@
     #Features {
       margin-top: 20%;
       gap: 5%;
+      row-gap: 20%;
     }
 
     #FeaturesLogo {
