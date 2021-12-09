@@ -1,4 +1,5 @@
 import "./Content.css";
+import "./Responsive.css";
 import IntroLogo from './IntroLogo.png'
 import FeaturesLogo from './FeaturesLogo.png'
 import FairLaunchLogo from './FairLaunchLogo.png'

@@ -40,3 +40,10 @@
     color: white;
     text-decoration: none;
   }
+
+  /* @media only screen and (max-width: 800px){
+    .nav-links {
+      font-size: 15px;
+      padding: 10px;
+    }
+  } */

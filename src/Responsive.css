@@ -1,0 +1,63 @@
+@media only screen and (max-width: 800px){
+  #HeaderLogo {
+    width: 30%;
+  }
+
+    .nav-links {
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    #IntroLogo {
+      width: 130%
+    }
+
+    #button-div {
+      grid-template-columns: 100%;
+      grid-template-rows: 32% 32% 32%;
+      gap: 10px;
+    }
+
+    #Features {
+      margin-top: 20%;
+      gap: 5%;
+    }
+
+    #FeaturesLogo {
+      width: 130%;
+    }
+
+    #Features p:nth-child(3) {
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: left;
+      padding-left: 50px;
+      padding-right: 70px;
+      padding-top: 50px;
+      white-space: pre-line;
+    }
+
+    #Tokenomics {
+      margin-top: 10%;
+    }
+
+    .bar {
+      width: 100%;
+    }
+
+    #Roadmap {
+      margin-top: 1%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #Info {
+      margin-top: 1%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
