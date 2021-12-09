@@ -195,6 +195,7 @@ h2 {
   align-items: center;
   grid-template-rows: 50% 50%;
   grid-template-columns: 25% 25% 25% 25%;
+  padding: 5%;
 }
 
 #Info h2:nth-child(1){
@@ -209,23 +210,23 @@ h2 {
   margin-left: 2px;
   background: rgb(3, 46, 63);
   /* color: rgb(16, 165, 224); */
-  height: 300px;
-  width: 310px;
+  height: 250px;
+  width: 260px;
   border-radius: 20px;
 }
 
 #FairLaunchLogo {
-  width: 191px;
+  width: 141px;
 }
 
 #LiquidityLockedLogo {
-  width: 140px;
+  width: 100px;
 }
 
 #AntiSniperLogo {
-  width: 190px;
+  width: 140px;
 }
 
 #AntiWhaleLogo {
-  width: 190px;
+  width: 140px;
 }
