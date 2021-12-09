@@ -64,4 +64,8 @@
       display: flex;
       flex-direction: column;
     }
+
+    .info-div {
+      width: 80%;
+    }
   }

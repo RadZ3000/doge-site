@@ -196,6 +196,8 @@ h2 {
   grid-template-rows: 50% 50%;
   grid-template-columns: 25% 25% 25% 25%;
   padding: 5%;
+  column-gap: 5%;
+  width: 80%;
 }
 
 #Info h2:nth-child(1){
@@ -207,11 +209,12 @@ h2 {
 
 .info-div {
   margin-top: 50px;
-  margin-left: 2px;
+  margin-left: 20%;
+  margin-right: 20%;
   background: rgb(3, 46, 63);
   /* color: rgb(16, 165, 224); */
-  height: 250px;
-  width: 260px;
+  height: 120%;
+  width: 110%;
   border-radius: 20px;
 }
 
