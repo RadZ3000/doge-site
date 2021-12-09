@@ -41,9 +41,11 @@
     text-decoration: none;
   }
 
-  /* @media only screen and (max-width: 800px){
-    .nav-links {
-      font-size: 15px;
-      padding: 10px;
-    }
-  } */
+  .nav-links:hover {
+    /* background: orange; */
+    background: white;
+    color: rgb(3, 46, 63);
+    border-radius: 25px;
+    width: 30%;
+    height: 39%;
+  }

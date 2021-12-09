@@ -84,6 +84,15 @@ h2 {
   border-style: none;
 }
 
+.Button:hover {
+  background: orange;
+  color: rgb(3, 46, 63);
+  height: 150%;
+  width: 60%;
+  font-size: 120%;
+  cursor: pointer;
+}
+
 #telegram {
   /* color: white; */
   width: 5px;
@@ -216,6 +225,13 @@ h2 {
   height: 120%;
   width: 110%;
   border-radius: 20px;
+}
+
+.info-div:hover {
+  height: 130%;
+  width: 120%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #FairLaunchLogo {

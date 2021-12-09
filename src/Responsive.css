@@ -8,6 +8,15 @@
       padding: 10px;
     }
 
+    .nav-links:hover {
+      /* background: orange; */
+      background: white;
+      color: rgb(3, 46, 63);
+      /* color: white; */
+      border-radius: 25px;
+      height: 50%;
+    }
+
     #IntroLogo {
       width: 130%
     }
@@ -16,6 +25,14 @@
       grid-template-columns: 100%;
       grid-template-rows: 32% 32% 32%;
       gap: 10px;
+    }
+
+    .Button:hover {
+      background: orange;
+      color: rgb(3, 46, 63);
+      height: 120%;
+      width: 50%;
+      cursor: pointer;
     }
 
     #Features {
@@ -61,10 +78,6 @@
       width: 33%;
     }
 
-    /* #phase-three {
-      margin-left: 16%;
-    } */
-
     #Info {
       margin-top: 1%;
       display: flex;
@@ -74,20 +87,11 @@
     .info-div {
       width: 80%;
     }
-  }
 
-  .nav-links:hover {
-    background: orange;
-    color: rgb(3, 46, 63);
-    border-radius: 25px;
-    width: 30%;
-    height: 37%;
-  }
-
-  .Button:hover {
-    background: orange;
-    color: rgb(3, 46, 63);
-    height: 120%;
-    width: 50%;
-    cursor: pointer;
+    .info-div:hover {
+      height: 100%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      width: 90%;
+    }
   }
