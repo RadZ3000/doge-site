@@ -2,7 +2,7 @@
 
 In root folder,
 - run npm install 
-- run $ <export NODE_OPTIONS=--openssl-legacy-provider>
+- run  export NODE_OPTIONS=--openssl-legacy-provider
 - run npm start
 
 ## Available Scripts
