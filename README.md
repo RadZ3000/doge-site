@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Startup Steps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In root folder,
+- run npm install 
+- run $ <export NODE_OPTIONS=--openssl-legacy-provider>
+- run npm start
 
 ## Available Scripts
 
